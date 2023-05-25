@@ -12,5 +12,5 @@ data = datetime.date.today()
 #if data.month>
 f1=abs(a-data.day)
 f2=abs(b-data.month)*30
-f3=abs(c-data.year)*360
+f3=abs(c-data.year)*365
 print(f1+f2+f3)
